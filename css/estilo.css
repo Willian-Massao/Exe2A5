@@ -1,0 +1,44 @@
+*{
+    font-family: Comic Sans MS;
+}
+figure{
+    max-width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 5px 5px 5px ;
+}
+figure>img{
+    max-width: 300px;
+    border-radius: 20px 20px 0 0 ;
+}
+.estrelas>img{
+    width: 120px;
+}
+.horario{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserva{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(130, 175, 173);
+}
+.dias{
+    text-align: center;
+}
+.dist{
+    margin-left: 55px;
+}
+figcaption>h1,.dist{
+    display: inline-block;
+}
+.titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
